@@ -25,7 +25,10 @@
         <external_command></external_command>
         <repositories>
             <repository type="git" url="https://github.com/miurahr/OSGeoLive-doc-omegat">
-                <mapping local="" repository=""/>
+   ￼                <mapping local="/" repository="/"/>		￼      
+￼            </repository>
+             <repository type="git" url="https://github.com/OSGeo-jp/OSGeoLive-doc#transifex_ja">
+￼                <mapping local="source/" repository="/locale/ja/LC_MESSAGES">
             </repository>
         </repositories>
     </project>
